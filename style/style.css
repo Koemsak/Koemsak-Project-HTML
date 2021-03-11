@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: url('https://cdn.pixabay.com/photo/2017/05/10/19/14/ice-2301602_960_720.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.menu-bar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    background: teal;
+}
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+}
+.menu-bar ul li {
+    padding: 0 10px 0 10px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.head {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    padding: 10px;
+}
+.header {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.header h1 {
+    font-family: cursive;
+    color: white;
+}
+.header .box-text {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+}
+.header button {
+    width: 15%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(252, 251, 251, 0.3);
+    /* border: none; */
+}
+.header button:hover {
+    cursor: pointer;
+}
+
+/* --------------------------------Home Page Content---------------------------------------- */
+.home-page {
+    background: #f7d2ad;
+}
+.content {
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+.content h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+.content span {
+    color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+}
+.breakfast,
+.lunch,
+.dinner,
+.drink {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.image1,
+.image2,
+.image3,
+.image4 {
+    padding: 10px;
+    width: 23%;
+}
+.image1 p,
+.image2 p,
+.image3 p,
+.image2 p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img {
+    border-radius: 10px;
+    width: 100%;
+}
+.image1 img:hover,
+.image2 img:hover,
+.image3 img:hover,
+.image4 img:hover {
+    cursor: pointer;
+}
+.desert {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    padding: 30px;
+    width: 18%;
+    display: flex;
+    border: 1px solid #1616161f;
+    border-radius: 10px;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    background: white;
+    cursor: pointer;
+}
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img {
+    width: 25%;
+}
+.desert .text {
+    font-size: 22px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
